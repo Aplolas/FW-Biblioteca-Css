@@ -1,0 +1,144 @@
+/* CSS reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+  
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+width: 1200px;
+margin: 0 auto;
+}
+
+.btn {
+width: 150px;
+background-color: #2A78E4;
+color: white;
+border: 2px solid black;
+box-shadow: 3px 3px black; /*Agregar sombra al botón*/
+}
+
+.row {
+display: flex;
+height: 100px;
+width: 100%;
+background-color: #900C3F;
+}
+
+.col, .col-2, .col-3 {
+margin: 10px;
+padding: 10px;
+}
+
+.col {
+flex: 1;
+background-color: #C70039;
+}
+
+.col-2 {
+flex: 2;
+background-color: #FF5733;
+}
+
+.col-3 {
+flex: 3;
+background-color: #FFC30F;
+}
+
+.nav {
+background-color: #333333;
+color: #FFFFFF;
+height: 80px;
+width: 1000px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.nav-links {
+width: 500px;
+display: flex;
+align-items: center;
+list-style-type: none;
+justify-content: space-around;
+}
+
+
+.nav a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+.btn {
+height: 40px;
+width: 100px;
+background-color:#0099B1 ;
+color: #FFFFFF;
+border: none;
+box-shadow: 5px 5px #000000;
+}
+
+
+.nav-title {
+margin-left: 15px;
+}
+
+
+.fondo {
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+
+.contenedor {
+width: 60%;
+height: 530px;
+display: flex;
+}
+
+.columna1{
+height: 100%;
+display: flex;
+flex-direction: column;
+flex: 2;
+margin-right: 20px;
+}
+
+.columna2{
+height: 530px;
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+
+.bloque1{
+width: 510px;
+border: magenta solid;
+display: flex;
+flex: 2;
+margin-bottom: 20px;
+}
+
+.bloque2{
+width: 510px;
+border: orange solid;
+display: flex;
+flex: 1;
+}
+
+.bloque3{
+width: 255px;
+border: magenta solid;
+display: flex;
+flex: 1;
+margin-bottom: 20px;
+}
+.bloque4{
+width: 255px;
+border: orange solid;
+display: flex;
+flex:2;
+}
